@@ -1,0 +1,365 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body
+{
+	background-image:url(images/Capture9.PNG);
+}
+#mainwrapper
+{
+	width:1300;
+	height:1300;
+	margin-top:150;
+	margin-left:20;
+	border-bottom-right-radius:30;
+	border-bottom-left-radius:30;
+	border-top-right-radius:90;
+	border-top-left-radius:90;
+	background-image:url(images/Capture1.PNG);
+}
+#mainwrapperaddpurchase
+{
+	width:1300;
+	height:700;
+	margin-top:150;
+	margin-left:20;
+	border-bottom-right-radius:30;
+	border-bottom-left-radius:30;
+	border-top-right-radius:90;
+	border-top-left-radius:90;
+	background-image:url(images/Capture1.PNG);
+}
+#mainwrapperfeedback
+{
+	width:1300;
+	height:850;
+	margin-top:150;
+	margin-left:20;
+	border-bottom-right-radius:30;
+	border-bottom-left-radius:30;
+	border-top-right-radius:90;
+	border-top-left-radius:90;
+	background-image:url(images/Capture1.PNG);
+}
+
+#mainwrappercontact
+{
+	width:1300;
+	height:1000;
+	margin-top:150;
+	margin-left:20;
+	border-bottom-right-radius:30;
+	border-bottom-left-radius:30;
+	border-top-right-radius:90;
+	border-top-left-radius:90;
+	background-image:url(images/Capture1.PNG);
+}
+
+#mainwrappershowcat
+{
+	width:1300;
+	height:1700;
+	margin-top:150;
+	margin-left:20;
+	border-bottom-right-radius:30;
+	border-bottom-left-radius:30;
+	border-top-right-radius:90;
+	border-top-left-radius:90;
+	background-image:url(images/Capture1.PNG);
+}
+
+#mainwrapperitemlist
+{
+	width:1300;
+	height:4100;
+	margin-top:150;
+	margin-left:20;
+	border-bottom-right-radius:30;
+	border-bottom-left-radius:30;
+	border-top-right-radius:90;
+	border-top-left-radius:90;
+	background-image:url(images/Capture1.PNG);
+}
+/*#navigation
+{
+	height:60;
+	width:1260;
+	background-image:url(images/Capture2.PNG);
+	position:relative;
+	top:70;
+	left:20;
+	border-top-right-radius:30;
+	border-top-left-radius:30;
+	border-bottom-right-radius:30;
+	border-bottom-left-radius:30;
+}
+#navigation ul
+{
+	list-style:none;
+}
+#navigation ul li
+{
+  float:left;
+  font-family:"Comic Sans MS", cursive;
+  font-size:26px;
+  text-align:center;
+  margin-top:15;
+  margin-left:90;
+}
+#navigation ul li a	
+{ text-decoration:none;
+  color:#CCC;
+  }
+#navigation ul li ul li a	
+{ text-decoration:none;
+  color:#333;
+}
+#navigation ul li a:hover
+{
+	color:white;
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
+	/*border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-bottom:4px solid ;*/
+	
+/*}
+#navigation ul li ul li a:hover
+{
+	color:#000;
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
+} 
+ #navigation ul li ul
+{
+	list-style:none;
+	visibility:hidden;
+	
+}
+#navigation ul li ul li ul
+{
+	visibility:hidden;
+
+}
+#navigation ul li a:hover ul
+{
+	visibility:visible;
+}
+#navigation ul li ul li
+{
+  font-family:"Comic Sans MS", cursive;
+  font-size:26px;
+  text-align:left;
+  margin-left:20;
+ 
+}
+#navigation ul li:hover ul
+{
+	  visibility:visible;
+}
+*/
+#navigation
+{
+	position:absolute;
+	height:60;
+	width:1260;
+	background-image:url(images/Capture2.PNG);
+	position:relative;
+	top:70;
+	left:20;
+	border-top-right-radius:30;
+	border-top-left-radius:30;
+	border-bottom-right-radius:30;
+	border-bottom-left-radius:30;
+}
+#navigation ul
+{
+	list-style:none;
+}
+#navigation ul li
+{
+  float:left;
+  font-family:"Comic Sans MS", cursive;
+  font-size:26px;
+  text-align:center;
+  margin-top:15;
+  margin-left:90;
+}
+#navigation ul li a	
+{ text-decoration:none;
+  color:#CCC;
+  }
+#navigation ul li ul li a	
+{ text-decoration:none;
+  color:#333;
+}
+#navigation ul li a:hover
+{
+	color:white;
+}
+/*#navigation ul li ul li a:hover
+{
+	color:#666;
+}*/
+ #navigation ul li ul
+{
+	position:absolute;
+	list-style:none;
+	/*visibility:visible;*/
+	z-index:2;
+}
+/*#navigation ul li ul li a
+{
+	visibility:visible;
+}*/
+#navigation ul li ul li
+{
+
+  font-family:"Comic Sans MS", cursive;
+  font-size:26px;
+  text-align:left;
+  margin-left:10;
+  display:block;
+  background-image:url(images/Capture2.PNG);
+  width:150;
+  visibility:hidden;
+}
+#navigation ul li:hover ul li
+{
+	float:left;
+	z-index:2;
+	position:absolute;
+	margin-top:9;
+	margin-left:-4;
+	visibility:visible;
+}
+
+#search
+{   float:right;
+	width:400;
+	position:absolute;
+	left:750;
+	top:110;
+}
+#similar
+{ 
+	float:left;
+	/*background-color:#FF6;*/
+  	position:absolute;
+	top:-.1;
+	height:300;
+	width:600;
+	margin-top:5;
+	margin-left:80;
+	
+}
+#similar1
+{ 
+	float:right;
+	background-image:url(images/Capture5.PNG);
+	position:absolute;
+	left:900;
+	top:10;
+	height:80;
+	width:100;
+	border-bottom-right-radius:50;
+	border-bottom-left-radius:50;
+}
+#similar2
+{ 
+	float:right;
+	background-image:url(images/Capture6.PNG);
+	position:absolute;
+	left:1000;
+	top:10;
+	height:80;
+	width:100;
+	margin-left:10;
+	border-bottom-right-radius:50;
+	border-bottom-left-radius:50;
+}
+#similar3
+{ 
+	float:right;
+	background-image:url(images/Capture7.PNG);
+	position:absolute;
+	left:1100;
+	top:10;
+	height:80;
+	width:100;
+	margin-left:20;
+	border-bottom-right-radius:50;
+	border-bottom-left-radius:50;
+}
+#footer
+{
+	width:1100;
+	height:250;
+	position:absolute;
+	top:1150;
+	background-color:#C66;
+	margin-left:80;
+	background-image:url(images/ffcap.PNG);
+}
+#footeraddpurchase
+{
+	width:1100;
+	height:250;
+	position:absolute;
+	top:570;
+	background-color:#C66;
+	margin-left:80;
+	background-image:url(images/ffcap.PNG);
+}
+#footerfeedback
+{
+	width:1100;
+	height:250;
+	position:absolute;
+	top:700;
+	background-color:#C66;
+	margin-left:80;
+	background-image:url(images/ffcap.PNG);
+}
+
+#footercontact
+{
+	width:1100;
+	height:250;
+	position:absolute;
+	top:850;
+	background-color:#C66;
+	margin-left:80;
+	background-image:url(images/ffcap.PNG);
+}
+
+#footershowcat
+{
+	width:1100;
+	height:250;
+	position:absolute;
+	top:1575;
+	background-color:#C66;
+	margin-left:80;
+	background-image:url(images/ffcap.PNG);
+}
+
+#footeritemlist
+{
+	width:1100;
+	height:250;
+	position:absolute;
+	top:3950;
+	background-color:#C66;
+	margin-left:80;
+	background-image:url(images/ffcap.PNG);
+}
+
+#insertitem
+{
+	position:absolute;
+	margin-left:300px;
+	margin-top:100px;
+}
